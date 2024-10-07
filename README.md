@@ -54,6 +54,16 @@ Before you begin, ensure you have met the following requirements:
 - GET `/search`: Search for users by first name
 
 ## Technologies Used
+- MongoDB: NoSQL database for storing user information
+- Cors: Middleware for enabling Cross-Origin Resource Sharing
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+* You have installed Node.js and npm
+* You have MongoDB installed and running on your local machine or have access to a MongoDB instance
+  - To start MongoDB locally, typically use: `mongod` (this may vary based on your installation)
+  - Ensure MongoDB is running on the default port 27017, or update the connection string in the backend accordingly
 
 - Backend: Node.js, Express.js, MongoDB with Mongoose
 - Frontend: React.js, Axios for API calls
